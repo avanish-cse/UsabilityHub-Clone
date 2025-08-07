@@ -140,17 +140,17 @@ ul {
 
 /* header section */
 
-header  {
+header {
     padding: 50px var(--padding-inline-section) 0;
 }
 
 .header-section {
-justify-content: center;
-gap: 50px;
+    justify-content: center;
+    gap: 50px;
 }
 
 .header-left {
-    max-width:40vw;
+    max-width: 40vw;
 }
 
 
@@ -183,4 +183,35 @@ gap: 50px;
 .logo {
     height: 46px;
 
+}
+
+/* Features Section */
+
+.features-section {
+    padding: 80px var(--padding-inline-section) 0;
+    background-image: url(../assets/asset\ 32.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-header {
+    text-align: center;
+}
+
+.features-header h2 {
+    margin: 20px;
+}
+
+.features-area {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.features-card {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
 }
