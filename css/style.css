@@ -221,7 +221,7 @@ header {
 
 
 .big-feature-section {
-    padding:30px var(--padding-inline-section);
+    padding: 30px var(--padding-inline-section);
 }
 
 .big-feature-container {
@@ -229,7 +229,7 @@ header {
 }
 
 .feature-image img {
-    width:100%;
+    width: 100%;
 }
 
 .features-desc {
@@ -254,9 +254,9 @@ header {
     position: relative;
     min-height: 300px;
     background: black;
-    background: linear-gradient(rgba(0, 0, 0, 0.1),rgb(0, 0,0, 0.8)), url(../assets/asset\ 35.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../assets/asset\ 35.jpeg);
     background-size: cover;
-    transition: 0.2s  ease-out;
+    transition: 0.2s ease-out;
 }
 
 .examples-card:hover {
@@ -264,15 +264,17 @@ header {
 }
 
 .examples-card:nth-child(2) {
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('../assets/asset 34.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../assets/asset 34.jpeg');
     background-size: cover;
 }
+
 .examples-card:nth-child(3) {
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('../assets/asset 36.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../assets/asset 36.jpeg');
     background-size: cover;
 }
+
 .examples-card:nth-child(4) {
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('../assets/asset 37.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../assets/asset 37.jpeg');
     background-size: cover;
 }
 
@@ -282,7 +284,7 @@ header {
     left: 20px;
     right: 20px;
     color: white;
-    
+
 }
 
 /* CTA Section */
@@ -304,3 +306,23 @@ header {
     color: white;
     margin-top: 20px;
 }
+
+
+/* Footer Section */
+
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
