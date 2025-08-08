@@ -216,6 +216,9 @@ header {
     text-align: center;
 }
 
+.features-card img {
+    width: 60px;
+}
 
 /* big feature section */
 
@@ -326,3 +329,14 @@ footer {
     justify-content: space-between;
 }
 
+/* sub footer container */
+
+.sub-footer {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.sub-footer-container{
+    justify-content: center;
+    gap: 30px;
+}
